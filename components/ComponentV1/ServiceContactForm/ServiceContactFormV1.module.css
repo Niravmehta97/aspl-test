@@ -1,0 +1,81 @@
+  /*  */
+  .contact-sec {
+    background: #09385a;
+  }
+  .form-col {
+    background: #033153;
+  }
+  .form-label {
+      color: #657580;
+      width: 100%;
+  }
+
+  .form-control {
+    background: transparent;
+    width: 100%;
+    border: 1px solid #DDE1DE;
+    color: #657580;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+  }
+
+  .inquire-btn {
+    text-decoration: none;
+    color: #09385A;
+    background: #2fbcdc;
+    padding: 15px 20px;
+    border-radius: 40px;
+    border: none;
+    width: -webkit-fill-available;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    height: 60px;
+  }
+  
+  .inquire-btn {
+    text-decoration: none;
+    color: #09385a;
+    background: #2fbcdc;
+    padding: 15px 29px;
+    border-radius: 40px;
+    width: -webkit-fill-available;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    transition: 1s;
+  }
+  
+  .inquire-btn:hover {
+    background: transparent;
+    border: 1px solid #2fbcdc;
+    color: #2fbcdc;
+  }
+  
+  .border-bottom {
+    border-bottom: 1px solid #657580 !important;
+  }
+  .contact-sec a:hover {
+    color: #2fbcdc !important;
+  }
+  .required:after {
+      content: "*";
+      color: #ff0000a8;
+    }
+
+    .contacy-number-componenet{
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      width: 100%;
+      /* flex-wrap: wrap; */
+    }
+
+    .contacy-number-componenet select{
+      width: auto;
+    }

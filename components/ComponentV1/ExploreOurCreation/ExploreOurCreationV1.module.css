@@ -1,0 +1,33 @@
+.our-creation-sec {
+  background: linear-gradient(to bottom, #fff, #b5e9f4);
+}
+.our-creation-title span {
+  color: #2fbcdc;
+}
+.creation-card img {
+  width: -webkit-fill-available;
+}
+.creation-card h3 {
+  color: #09385a;
+}
+.creation-card .language-badge {
+  padding: 5px 10px;
+  border: 1px solid #09385a;
+  border-radius: 50px;
+  color: #09385a;
+  font-size: 12px;
+  font-weight: 600;
+}
+.load-more-btn {
+  text-decoration: none;
+  color: #09385a;
+  background: #2fbcdc;
+  padding: 15px 29px;
+  border-radius: 40px;
+}
+
+.load-more-btn:hover {
+  background: transparent;
+  border: 1px solid #2fbcdc;
+  color: #2fbcdc;
+}

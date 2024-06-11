@@ -1,0 +1,25 @@
+.cerification-sec {
+    background-color: #09385a;
+  }
+  .cerificate-img img{
+      width: 90px;
+      height: auto;
+  }
+
+  @media only screen and (max-width:1400px) {
+    .cerificate-img img{
+      width: 65px;
+      height: auto;
+  }
+  }
+  
+  .star-number p {
+    font-size: 22px;
+      color: white;
+      font-weight: 600;
+  }
+  
+  .line-span {
+    margin-left: 1rem;
+    color: #657580;
+  }

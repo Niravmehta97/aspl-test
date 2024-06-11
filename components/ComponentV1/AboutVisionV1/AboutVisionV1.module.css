@@ -1,0 +1,41 @@
+  /* mission vision start */
+  .mission-vision-card img {
+    width: 150px;
+    height: 50px;
+  }
+  
+  .mission-vision-card h5 {
+    color: #525238;
+    font-size: 35px;
+  }
+  
+  .mission-vision-card {
+    height: 90%;
+  }
+  
+  .mission-vision-card p {
+    font-size: 18px;
+    text-align: justify;
+  }
+  
+  .vision {
+    background: #f2f2ed;
+  }
+  
+  .mission {
+    background: #dde1de;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .mission-vision-card img {
+      width: 150px;
+      height: 50px;
+    }
+    .mission-vision-card h5 {
+      font-size: 25px;
+    }
+    .mission-vision-card p {
+      font-size: 14px;
+    }
+  }
+  /* mission vision end */

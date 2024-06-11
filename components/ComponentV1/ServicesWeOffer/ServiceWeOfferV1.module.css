@@ -1,0 +1,22 @@
+.services-sec {
+    background: #09385a;
+  }
+  .services-title span {
+    color: #2fbcdc;
+  }
+.services-sec p {
+    color: #D9D9D9;
+    font-size: 18px;
+}
+@media only screen and (max-width:426px) {
+  .services-sec p {
+    font-size: 16px;
+  }
+}
+.services-sec h5 {
+  font-weight: normal;
+}
+.service-col {
+  border: 1px solid #65758057;
+    padding: 20px;
+}

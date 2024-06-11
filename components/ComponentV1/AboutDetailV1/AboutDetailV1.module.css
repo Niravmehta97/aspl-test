@@ -1,0 +1,24 @@
+  /* about detail start */
+  .about-detail-sec {
+    background: #fff;
+  }
+  
+  .about-detail-sec p {
+    color: #657580;
+    font-size: 18px;
+  }
+
+  @media only screen and (max-width:426px) {
+    .about-detail-sec p {
+      font-size: 16px;
+    }
+  }
+
+  .text-justify {
+    text-align: justify;
+  }
+  
+  .about-detail-img {
+    width: 85%;
+  }
+  /* about detail end */

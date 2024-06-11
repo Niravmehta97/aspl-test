@@ -1,0 +1,52 @@
+.why-choose-sec {
+    background: linear-gradient(to bottom, #fff, #b5e9f4);
+  }
+  .why-choose-title span {
+    color: #2fbcdc;
+  }
+
+  .why-choose-card h6 {
+    font-weight: 600;
+  }
+  .why-choose-card {
+    border-radius: 20px;
+      background: #FFF;
+      box-shadow: 0px 40px 70px 0px rgba(203, 184, 255, 0.20);
+      padding: 25px;
+      height: 15em;
+      width: 15em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .why-choose-card h6 {
+    line-height: 25px;
+    font-weight: normal;
+    font-size: 16px;
+  }
+
+  .Card-component{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20em;
+    position: relative;
+  }
+
+  .why-choose-card.Down{
+    position: absolute;
+    bottom: 0px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .why-choose-card.Down{
+      position: relative;
+      bottom: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 400px){
+    .why-choose-card.Down{
+        position: unset;
+    }
+   }

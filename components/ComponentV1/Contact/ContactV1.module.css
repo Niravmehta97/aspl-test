@@ -1,0 +1,92 @@
+.contact-sec {
+    background: #f8fafb;
+  }
+  .form-col {
+    background: white;
+  }
+  .contact-title span {
+    color: #31C2E1;
+  }
+  .contact-sec .form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #657580;
+    color: #657580;
+  }
+  .container {
+    max-width: 87% !important;
+}
+  .contact-sec .form-control:focus {
+    box-shadow: none;
+  }
+  
+  .inquire-btn {
+    text-decoration: none;
+    color: #09385A;
+    background: #2fbcdc;
+    padding: 15px 29px;
+    border: none;
+    border-radius: 40px;
+    width: -webkit-fill-available;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .inquire-btn:hover {
+    background: transparent;
+    border: 1px solid #2fbcdc;
+    color: #2fbcdc;
+  }
+  
+  .contact-sec h6 {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .contact-sec h3 {
+    color: #09385a;
+  }
+
+  .contact-sec p, .contact-sec a {
+    color: #657580;
+    font-size: 18px;
+  }
+
+  @media only screen and (max-width: 426px) {
+    .contact-sec p, .contact-sec a {
+      font-size: 16px;
+    }
+  }
+  
+  .country-logo {
+    width: 30px;
+    height: 25px;
+  }
+  
+  .border-bottom {
+    border-bottom: 1px solid #65758054!important;
+  }
+
+  .border-right {
+    border-right: 1px solid #65758054;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .border-right {
+      border-right: none;
+    }
+  }
+
+  .border-top {
+    border-top: 1px solid #65758054!important;
+  }
+  
+  .social-icons img {
+    width: 40px;
+    height: 40px;
+  }
+  .contact-sec a:hover {
+    color: #2fbcdc!important;
+  }

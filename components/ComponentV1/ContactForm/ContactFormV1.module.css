@@ -1,0 +1,61 @@
+.contact-title span {
+    color: #31C2E1;
+  }
+  
+  .form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #65758042;
+    color: #657580;
+    width: 100%;
+    margin-bottom: 1rem;
+    outline: none;
+    font-size: 16px;
+  }
+  
+ .form-control:focus {
+    box-shadow: none;
+  }
+  
+  .inquire-btn {
+    text-decoration: none;
+    color: #09385A;
+    background: #2fbcdc;
+    padding: 10px 29px;
+    border-radius: 40px;
+    border: none;
+    width: -webkit-fill-available;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    height: 60px;
+    font-size: 20px;
+  }
+
+  @media only screen and (max-width:1200px) {
+    .inquire-btn {
+      height: 50px;
+    }
+  }
+  
+  .inquire-btn:hover {
+    background: transparent;
+    border: 1px solid #2fbcdc;
+    color: #2fbcdc;
+  }
+
+  .required:after {
+    content: "*";
+    color: red;
+  }
+  .contacy-number-componenet{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    width: 100%;
+    /* flex-wrap: wrap; */
+  }
+
+  .contacy-number-componenet select{
+    width: auto;
+  }

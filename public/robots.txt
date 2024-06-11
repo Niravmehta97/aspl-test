@@ -1,0 +1,17 @@
+
+# User agent "Googlebot"
+
+User-agent: Googlebot
+Allow: /
+Disallow: /career/company/career/contactus/phpmyadmin/service-details/profile/ashapura-softech/admin/employees/
+Crawl-delay: 2
+    
+# User agent "OtherBot"
+
+User-agent: OtherBot
+Allow: /
+Disallow: /career/company/career/contactus/phpmyadmin/service-details/profile/ashapura-softech/admin/employees/
+Crawl-delay: 2
+   
+Sitemap: http://ashapurasoftech.com/sitemap.xml
+Host: http://ashapurasoftech.com

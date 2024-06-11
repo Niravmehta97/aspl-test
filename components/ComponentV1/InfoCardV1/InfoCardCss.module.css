@@ -1,0 +1,106 @@
+.sharepoint-card {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(72, 69, 224, 0.1);
+  padding: 30px 25px;
+  position: relative;
+  transition: 0.5s;
+  z-index: 1;
+}
+.sharepoint-card p {
+  font-size: 15px;
+}
+
+.sharepoint-card .icon {
+  border-radius: 50%;
+  display: inline-block;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  transition: .5s;
+  width: 55px;
+}
+
+.sharepoint-card .color-1 {
+  background: #dfe5ff;
+  color: #4c6fff;
+}
+
+.sharepoint-card .icon img {
+  height: 30px;
+}
+
+.sharepoint-card .color-2  {
+  background: #ffeefa;
+  color: #eb8ed0;
+}
+
+.sharepoint-card .color-3{
+  background: #d1f5f6;
+  color: #3fc7e3;
+}
+
+.sharepoint-card .color-4 {
+  background: #d1eecc;
+  color: #72ca63;
+}
+
+.sharepoint-card:hover {
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+  transform: translateY(-10px);
+}
+
+.sharepoint-card:hover:after,
+.sharepoint-card:hover:before {
+  opacity: 1;
+  visibility: visible;
+  width: 50%;
+}
+
+.sharepoint-card:before {
+  left: 0;
+}
+
+.sharepoint-card:after {
+  right: 0;
+}
+
+.sharepoint-card:after,
+.sharepoint-card:before {
+  background: linear-gradient(
+    to right top,
+    #35dbff,
+    #44d6f3,
+    #37c7e5,
+    #2b73a7,
+    #09385a
+  );
+  bottom: 0;
+  content: "";
+  height: 4px;
+  opacity: 0;
+  position: absolute;
+  transition: 0.5s;
+  visibility: hidden;
+  width: 0;
+}
+
+.sharepoint-card.color-1:hover .icon {
+  background: #4c6fff;
+  color: #fff;
+}
+
+.sharepoint-card.color-2:hover .icon {
+  background: #eb8ed0;
+  color: #fff;
+}
+
+.sharepoint-card.color-3:hover .icon {
+  background: #3fc7e3;
+  color: #fff;
+}
+
+.sharepoint-card.color4:hover .icon {
+  background: #72ca63;
+  color: #fff;
+}

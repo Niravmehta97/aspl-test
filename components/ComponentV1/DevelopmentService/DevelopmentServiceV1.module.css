@@ -1,0 +1,53 @@
+.dev-services-title span {
+  color: #2fbcdc;
+}
+
+.text-primary {
+  color: #09385a !important;
+}
+.text-gray {
+  color: #657580;
+}
+.dev-services-sec .border-bottom {
+  border-bottom: 1px solid #65758030 !important;
+}
+.right-icon-div {
+  visibility: hidden;
+}
+.services-card a:hover h5 {
+  color: #31c2e1 !important;
+}
+.services-card a:hover .right-icon-div {
+  visibility: visible;
+  animation: servicesArrow 0.4s;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+@keyframes servicesArrow {
+  0% {
+    transform: translateX(-45px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.servicesTab.nav-pills .nav-item .nav-link.active {
+  color: #31c2e1 !important;
+  background-color: transparent;
+  border-radius: 0px;
+  border-left: 4px solid #09385a;
+}
+.servicesTab.nav-pills .nav-item .nav-link {
+  border-radius: 0px;
+  color: #09385a !important;
+  border-left: 4px solid #e8edeb;
+  padding: 1em 0px 1em 1em;
+  font-size: 18px;
+}
+
+.servicesTab.nav-pills .nav-item{
+    margin: .75em 0px;
+}

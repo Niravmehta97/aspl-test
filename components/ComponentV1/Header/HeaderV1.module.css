@@ -1,0 +1,112 @@
+#navbar a {
+    font-family: "Source sans pro", sans-serif;
+}
+
+.navbar-brand img {
+    width: 200px;
+    height: auto;
+}
+.cust-nav-menu-body{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+}
+.navbar .nav-item {
+    margin: 10px 25px;
+}
+
+.custom-container {
+    margin: auto!important;
+}
+
+@media only screen and (max-width:993px) {
+    .navbar .nav-item {
+        margin: 10px;
+    }
+}
+
+.container {
+    max-width: 87% !important;
+}
+
+.navbar .nav-link {
+    color: #202647;
+    font-size: 17px!important;
+    font-weight: 700;
+    font-family: "Source sans pro", sans-serif;
+}
+
+.margin-none ul{
+    margin-right: unset !important;
+}
+.navbar .nav-link:hover {
+    color: #1ea6c3;
+}
+
+.contact-btn:hover {
+    color: #09385a;
+}
+
+.contact-btn {
+    border: 3px solid #09385a;
+    border-radius: 25px;
+    padding: 7px 40px;
+    color: #09385a;
+    text-decoration: none;
+    background:transparent;
+    font-weight: 700;
+    font-size: 18px;
+    animation-name: myfirst;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.service-dropdown-custom {
+    left: 0!important;
+    top: 40px!important;
+    transform: translateX(-35%)!important;
+}
+
+.container {
+    max-width: 87% !important;
+}
+
+@media only screen and (min-width:767px) and (max-width:993px) {
+    .ser-img-box {
+        display: none;
+    }
+}
+
+@media only screen and  (max-width: 993px) {
+    .service-dropdown-custom {
+        left: 0!important;
+        top: 5px!important;
+        transform: none!important;
+    }
+
+    .margin-none ul{
+        margin-right: unset !important;
+        max-height: none!important;
+        overflow-y: auto!important;
+    }
+
+    .margin-none {
+        max-height: 70vh!important;
+        overflow-y: scroll!important;
+    }
+}
+
+    @keyframes myfirst
+    {
+    0%   {background:transparent;}
+    50%  {background: #09385a;
+        border-color: #09385a;
+        color: white;}
+    100%   {background:transparent;}
+    }
+
+@media only screen and (max-width:400px) {
+    .buttonList {
+        margin-top: 1em !important;
+    }
+}

@@ -1,0 +1,14 @@
+.crm-software-title span {
+    color: #2fbcdc;
+  }
+  
+  .text-justify {
+    text-align: justify;
+    font-size: 18px;
+  }
+
+  @media only screen and (max-width:426px) {
+    .text-justify {
+      font-size: 16px;
+    }
+  }

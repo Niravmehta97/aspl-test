@@ -1,0 +1,118 @@
+.our-clients-title span {
+    color: #2fbcdc;
+  }
+  .text-secondary {
+    color: #31C2E1!important;
+  }
+  .text-gray {
+    color: #657580;
+  }
+  .px-6 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .pt-6 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .testimonial-card-main {
+    background: #ebf9fc;
+  }
+  .testimonial-div {
+      border-radius: 13px;
+      background: white;
+      box-shadow: 0px 1px 40px 0px rgba(102, 177, 193, 0.08);
+      opacity: 1;
+      padding: 30px;
+  }
+
+  .clutch-div img {
+    width: 10%;
+    height: auto;
+  }
+  .text-dark {
+    color: #09385A;
+  }
+  .testimonial-div h5 {
+      font-size: 24px;
+      margin-bottom: 30px;
+  }
+  .clutch-div img {
+    width: 100px;
+    height: auto;
+  }
+
+  .slide-icons svg{
+    cursor: pointer;
+  }
+
+  .slide-icons svg.disabled{
+    color: #cfcfcfcc;
+    cursor: not-allowed;
+  }
+
+  .slide-icons svg.disabled:hover{
+    color: #cfcfcfcc;
+  }
+
+  .slide-icons svg:hover {
+    color: #2fbcdc;
+  }
+  .client-img img {
+    width: 100%;
+    height: auto;
+    padding: 3%;
+    margin-top: 17%;
+  }
+  .client-img{
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 500px;
+      height: 500px;
+  }
+
+  @media only screen and (max-width:1411px) {
+    .client-img {
+      width: 400px;
+      height: 400px;
+    }
+  }
+  
+  .text-justify {
+    text-align: justify;
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .client-img {
+      width: 400px;
+      height: 400px;
+    }
+    .pt-6 {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    .testimonial-div {
+      padding: 20px;
+    }
+    .testimonial-div h5 {
+      font-size: 20px;
+      margin-bottom: 20px;
+  }
+  }
+  @media only screen and (max-width: 992px) {
+    .text-align-center {
+      text-align: -webkit-center;
+    }
+    .our-clients-sec .row {
+      padding: 0;
+      margin: 0;
+    }
+  }
+  
+  @media only screen and (max-width: 450px) {
+    .client-img {
+      width: 200px;
+      height: 200px;
+  }
+  }

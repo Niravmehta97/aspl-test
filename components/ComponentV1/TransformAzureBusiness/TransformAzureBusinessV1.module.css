@@ -1,0 +1,35 @@
+.industries-title span {
+  color: #2fbcdc;
+}
+.industries-card {
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-bottom: 90px;
+  height: 80%;
+  transition: .25s;
+}
+.industries-card p {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .industries-card p {
+    font-size: 12px;
+  }
+}
+
+.research {
+  background: #F2F2ED;
+}
+
+.planning {
+  background: #DDE1DE;
+}
+
+.creativity {
+  background: #F7F3DE;
+}
+
+.engineering {
+  background: #F5E9E6;
+}

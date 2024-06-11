@@ -1,0 +1,41 @@
+  /* bnr css  start*/
+  .bnr-img {
+    width: 400px;
+    height: auto;
+  }
+  
+  .eclipse:before {
+    content: "";
+    width: -webkit-fill-available;
+    height: 300px;
+    flex-shrink: 0;
+    position: absolute;
+    border-radius: 392px;
+    background: #31c2e1;
+    filter: blur(350.04998779296875px);
+  }
+  
+  .h1-title-text {
+    color: #09385a;
+    font-size: 60px;
+  }
+
+  .bnr-content-div p {
+    color: #657580;
+    font-size: 20px;
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .h1-title-text {
+      font-size: 40px;
+    }
+  
+    .bnr-btn {
+      font-size: 16px;
+    }
+  
+    .bnr-img {
+      width: 225px;
+    }
+  }
+  /* bnr css end */

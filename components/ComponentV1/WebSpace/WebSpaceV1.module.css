@@ -1,0 +1,22 @@
+.web-space-sec {
+  background: #f8fafb;
+}
+.web-space-title span {
+  color: #2fbcdc;
+}
+
+.text-justify {
+  text-align: justify;
+  font-size: 18px;
+}
+
+@media only screen and (max-width:426px) {
+  .text-justify {
+    font-size: 16px;
+  }
+}
+
+.web-spece-img {
+  width: 85%;
+  height: 20rem;
+}

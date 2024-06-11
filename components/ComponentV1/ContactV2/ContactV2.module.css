@@ -1,0 +1,102 @@
+  /* bnr css  start*/
+  .bnr-img {
+    width: 250px;
+    height: auto;
+  }
+  
+  .contact-main-sec {
+    box-shadow: 0px 21px 102.8px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+  .eclipse {
+    width: 0;
+  }
+  .eclipse:before {
+    content: "";
+    width: -webkit-fill-available;
+    height: 300px;
+    flex-shrink: 0;
+    position: absolute;
+    border-radius: 392px;
+    background: #31c2e1;
+    filter: blur(350.04998779296875px);
+  }
+  
+  .h1-title-text {
+    color: #09385a;
+    font-size: 60px;
+  }
+  
+  .h1-title-text span {
+    background: linear-gradient(to right, #31c2e1, #09385a);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  
+  .sub-content-main-div {
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0px 3px 17.4px 0px rgba(9, 56, 90, 0.06);
+  }
+  
+  .sub-content-div {
+    border-radius: 10px;
+    border-left: 7px solid #09385a;
+    border-right: 7px solid #09385a;
+    padding: 10px;
+  }
+  
+  .sub-content-div p {
+    font-size: 18px;
+  }
+
+  .inquire-btn {
+    width: 200px;
+  }
+  
+  .bnr-btn {
+    color: white;
+    background: #09385a;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+  }
+  
+  .bnr-btn:hover {
+    background: #1ea6c3;
+    color: #09385a;
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .h1-title-text {
+      font-size: 40px;
+    }
+  
+    .sub-content-div p {
+      font-size: 14px;
+    }
+  
+    .bnr-btn {
+      font-size: 16px;
+    }
+  
+    .bnr-img {
+      width: 225px;
+    }
+    .social-icons {
+      padding-left: 3rem!important;
+    }
+  }
+  /* banner end */
+  
+  .social-icons img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .text-lightblue {
+    color: #31C2E1;
+  }
