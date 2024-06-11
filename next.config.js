@@ -17,9 +17,7 @@
    
 //   module.exports = nextConfig
 
-/** @type {import(‘next’).NextConfig} */
-const nextConfig = {
-    reactStrictMode: true,
-    }
-    
-    module.exports
+// next.config.js
+module.exports = {
+    basePath: '/subdirectory',
+  }
