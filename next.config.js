@@ -8,23 +8,7 @@
 //     trailingSlash: true,
 // }
 
-// /**
-//  * @type {import('next').NextConfig}
-//  */
-// const nextConfig = {
-//     output: 'export',
-//   }
-   
-//   module.exports = nextConfig
-
-// next.config.js
-// module.exports = {
-//     basePath: '/subdirectory',
-//   }
-
-/** @type {import(‘next’).NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  }
-  
-  module.exports
+module.exports = {
+  // other exports
+  target: 'serverless', // add this line
+};
