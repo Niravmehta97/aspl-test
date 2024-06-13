@@ -1,5 +1,5 @@
 import React from "react";
-import Css from "./BannerV1.module.css";
+import Css from "BannerV1.module.css";
 import Link from "next/link";
 import TypewriterEffect from "../TypeWriteEffect/TypeWriteEffect";
 
