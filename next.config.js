@@ -10,6 +10,5 @@ const path = require('path')
 
 module.exports = {
   // other exports
-  assetPrefix: '/images/',
   target: 'serverless', // add this line
 };
