@@ -10,11 +10,6 @@ const path = require('path')
 
 module.exports = {
   // other exports
-  distDir: 'build',
-  sassOptions: {
-      includePaths: [path.join(__dirname, 'styles')],
-  },
   assetPrefix: '/images/',
-  trailingSlash: true,
   target: 'serverless', // add this line
 };
