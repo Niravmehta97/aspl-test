@@ -85,7 +85,6 @@ const Index = () => {
         <meta name="og:title" property="og:title" content="Salesforce | Microsoft | CRM, ERP & Custom Dev | Ashapura Softech"></meta>
         <meta name="twitter:card" content="Ashapura Softech is a global provider of end-to-end Salesforce, Microsoft, CRM, ERP, and custom development services."></meta>
         <link rel='canonical' href={`${baseUrl}`}></link>
-        <base href="https://main--aspl-test.netlify.app/" target="_blank"></base>
       </Head>
       {/* <MainBanner /> */}
       <HomeV1 />
