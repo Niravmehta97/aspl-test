@@ -10,11 +10,11 @@ import ServiceWeOffer from '../../../ComponentV1/ServicesWeOffer/ServiceWeOfferV
 import SalesforceServicesV1 from '../../../ComponentV1/SalesforceServices/SalesforceServicesV1'
 import TrustedByV1 from '../../../ComponentV1/TrustedBy/TrustedByV1'
 import ServiceBannerV1 from '../../../ComponentV1/ServiceBanner/ServiceBannerV1'
-import { getMicrosoftSharepointFAQDataV1 } from '../../../ComponentV1/FAQ/Data/MicrosoftSharepointFAQV1_Data'
 import { getsalesforcecloudOfferData } from '../../../ComponentV1/ServicesWeOffer/Data/Salesforce_Cloud_Service_OfferV1_Data'
 import { getsalesforcecloudwhyData } from '../../../ComponentV1/WhyYouNeedV1/Data/Salesforce_Cloud_Service_Data'
 import { getSalesforceCloudServiceData } from '../../../ComponentV1/SalesforceServices/Data/SalesforceCloudServiceDataV1'
 import { getsalesforcedevopsData } from '../../../ComponentV1/ServiceBanner/Data/Salesforce_Devops_Data'
+import { getSalesforceDevOpsFAQDataV1 } from '../../../ComponentV1/FAQ/Data/SalesforceDevOpsFAQV1_Data'
 
 
 export default function SalesforceDevOpsV1() {
@@ -28,7 +28,7 @@ export default function SalesforceDevOpsV1() {
     <SalesforceServicesV1 data={getSalesforceCloudServiceData()}/>
     <WhyChooseUsV1 />
     <IndustryWeServeV1 />
-    <FAQV1 data={getMicrosoftSharepointFAQDataV1()} />
+    <FAQV1 data={getSalesforceDevOpsFAQDataV1()} />
     <ContactV1 />
     <FooterV1 />
 </>

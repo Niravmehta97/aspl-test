@@ -1,0 +1,29 @@
+export const getSalesforceCloudServiceFAQDataV1 = () => {
+    return [
+        {
+            id: 1,
+            title: 'What are the benefits of using Ashapura Softech for my SharePoint needs?',
+            desc: `Ashapura Softech has a team of certified and experienced SharePoint developers who can help you get the most out of your SharePoint investment. They offer a variety of services to meet your specific needs, and they can help you improve your business processes and workflows.`
+        },
+        {
+            id: 2,
+            title: `Can You Help Us Implement Salesforce Cloud?`,
+            desc: `Absolutely! Our Salesforce implementation services include a thorough analysis of your current business processes to recommend the most suitable Salesforce Cloud solution and then configure it to meet your specific needs.`
+        },
+        {   
+            id: 3,
+            title: 'Do You Offer Ongoing Support for Salesforce Cloud?',
+            desc: `Yes, Ashapura Softech provides comprehensive ongoing support to ensure you get the most out of your Salesforce Cloud investment. This includes user training, data migration assistance, and technical support.`
+        },
+        {   
+            id: 4,
+            title: 'How Can Ashapura Softech Help Us Integrate Salesforce Cloud with Existing Systems?',
+            desc: `We have a team of experts skilled in integrating Salesforce Cloud with various third-party applications and existing business systems, ensuring a smooth flow of data and maximizing efficiency.`
+        },
+        {   
+            id: 5,
+            title: 'What are the Benefits of Using Ashapura Softech for Salesforce Cloud Services?',
+            desc: `Ashapura Softech offers a unique blend of expertise, experience, and a commitment to understanding your specific business goals. We provide customized solutions, ongoing support, and ensure a smooth Salesforce Cloud implementation process.`
+        },
+    ]
+}
