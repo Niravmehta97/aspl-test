@@ -12,8 +12,8 @@ export const getSalesforceCRMFAQDataV1 = () => {
         },
         {   
             id: 3,
-            title: 'Do you offer any guarantees on your work?',
-            desc: `Ashapura Softech is committed to providing high-quality SharePoint solutions. They offer warranties on their work to ensure your satisfaction.`
+            title: 'What Salesforce CRM services do you offer?',
+            desc: `Ashapura Softech offers a variety of Salesforce Cloud Services to help businesses improve their customer relationship management (CRM). Their services include consulting on which Salesforce products are best for your business, implementation of those products, and customization of Salesforce products to fit your specific needs. They specifically mention expertise in Salesforce Service Cloud, which can help businesses centralize customer information, automate tasks, and provide omnichannel support. They also mention Salesforce Marketing Cloud, which can help businesses with email marketing, social media marketing, and data analysis. Overall, Ashapura Softech can help you with all aspects of using Salesforce to improve your customer relationships.`
         },
         {   
             id: 4,

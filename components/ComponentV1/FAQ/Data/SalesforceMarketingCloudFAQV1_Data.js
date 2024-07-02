@@ -7,8 +7,8 @@ export const getSalesforceMarketingCloudFAQDataV1 = () => {
         },
         {
             id: 2,
-            title: `How much does your SharePoint development cost?`,
-            desc: `The cost of SharePoint development will vary depending on the complexity of your project. Ashapura Softech offers free consultations to discuss your needs and provide you with a quote.`
+            title: `What are the benefits of using the Salesforce Marketing Cloud?`,
+            desc: `Service Cloud can be a game-changer for your business by streamlining your customer service operations and boosting customer satisfaction.  It centralizes all your customer interactions, no matter the channel (email, phone, chat), so your agents have a complete view of customer history. This allows them to resolve issues faster and provide more personalized service. Service Cloud also automates repetitive tasks, freeing up your agents' time for complex cases. Additionally, it provides valuable customer insights that can help you identify areas for improvement and ultimately increase customer loyalty.`
         },
         {   
             id: 3,

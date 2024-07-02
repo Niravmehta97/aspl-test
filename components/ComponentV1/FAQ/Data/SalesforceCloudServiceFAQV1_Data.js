@@ -2,8 +2,9 @@ export const getSalesforceCloudServiceFAQDataV1 = () => {
     return [
         {
             id: 1,
-            title: 'What are the benefits of using Ashapura Softech for my SharePoint needs?',
-            desc: `Ashapura Softech has a team of certified and experienced SharePoint developers who can help you get the most out of your SharePoint investment. They offer a variety of services to meet your specific needs, and they can help you improve your business processes and workflows.`
+            title: 'What Salesforce Cloud Services Does Ashapura Softech Offer?',
+            desc: `Ashapura Softech offers a variety of Salesforce Cloud Services to help businesses improve their customer relationship management (CRM). Their services include consulting on which Salesforce products are best for your business, implementation of those products, and customization of Salesforce products to fit your specific needs.`
+                  `They specifically mention expertise in Salesforce Service Cloud, which can help businesses centralize customer information, automate tasks, and provide omnichannel support. They also mention Salesforce Marketing Cloud, which can help businesses with email marketing, social media marketing, and data analysis. Overall, Ashapura Softech can help you with all aspects of using Salesforce to improve your customer relationships.`
         },
         {
             id: 2,

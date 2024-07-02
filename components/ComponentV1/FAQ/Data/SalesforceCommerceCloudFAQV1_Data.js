@@ -12,8 +12,8 @@ export const getSalesforceCommerceCloudFAQDataV1 = () => {
         },
         {   
             id: 3,
-            title: 'Do you offer any guarantees on your work?',
-            desc: `Ashapura Softech is committed to providing high-quality SharePoint solutions. They offer warranties on their work to ensure your satisfaction.`
+            title: 'What are the benefits of using Salesforce Commerce Cloud for my business?',
+            desc: `There are several advantages to using Salesforce Commerce Cloud for your business.  Salesforce Commerce Cloud is built on a strong foundation that can  scale with your business as it grows.  It also leverages Einstein AI to personalize the shopping experience for your customers, which can lead to increased sales and customer satisfaction.  Additionally, Commerce Cloud allows you to manage multiple stores and deliver a unified shopping experience across all channels, whether it's mobile, web, or social media.`
         },
         {   
             id: 4,
