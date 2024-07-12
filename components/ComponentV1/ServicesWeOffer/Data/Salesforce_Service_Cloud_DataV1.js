@@ -32,6 +32,10 @@ export const getsalesforceservicecloudOfferData = () => {
             title: 'Live Agent Instantly From Any Device',
             desc: `With Live Agent, you can provide your customers with 24/7 support without having to hire additional agents. All of your customer's interactions are recorded in one place so that they can be accessed at anytime.`
         },
+        {
+            title: 'Salesforce Service Cloud Support & Training',
+            desc: `Our combined Salesforce support and training services ensure your organization delivers agile and efficient customer service. Leverage our team of 24/7 Service Cloud experts to keep your platform optimized and reach its full potential. Go beyond support with our training programs, equipping your team with best practices and the latest implementation tools.`
+        },
     ]
 
     const title = {title: 'We Offer', span_title: 'Services'}

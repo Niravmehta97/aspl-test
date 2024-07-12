@@ -20,6 +20,10 @@ export const getsalesforcecommercecloudOfferData = () => {
             title: 'Customizable',
             desc: `Integrate Commerce Cloud with a variety of third-party solutions, including ecommerce platforms`
         },
+        {
+            title: 'SFCC Integration',
+            desc: `Our integration services unlock the true potential of your SFCC store by seamlessly connecting it with your preferred third-party systems. This fosters a unified experience across all touchpoints and optimizes your marketing efforts.  In short, we help you do more with your commerce platform.`
+        },
     ]
 
     const title = {title: 'We Offer', span_title: 'Services'}

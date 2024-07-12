@@ -32,6 +32,10 @@ export const getsalesforcecloudOfferData = () => {
             title: 'Salesforce Customization Services',
             desc: `For different businesses, everyone has various demands and needs. As a result, buyers prefer to know that the experiences they're having are unique to them. Salesforce accomplishes this by offering a platform that's also intended expressly for setup and customization. Organizations may simply design, run, and optimize their own apps to conduct a limitless range of functions, giving them a fully customized Crm system besides customizing CRM standard programs to match particular needs.`
         },
+        {
+            title: 'Salesforce Service Cloud Analytics',
+            desc: `Powerful analytics and reporting within Salesforce Service Cloud give you unrivaled visibility into customer service issues. By leveraging these capabilities, you can improve agent productivity, boost customer satisfaction, and ultimately drive sales performance.`
+        },
     ]
 
     const title = {title: 'We Offer', span_title: 'Salesforce Services'}

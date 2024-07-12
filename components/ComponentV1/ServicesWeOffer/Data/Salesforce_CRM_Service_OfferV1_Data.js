@@ -20,6 +20,10 @@ export const getsalesforcecrmOfferData = () => {
             title: 'CRM Customization And Installation',
             desc: `Create a complete plan and train your staff to make your Salesforce integration services more powerful with a Salesforce integration process that helps you understand your company goals. The following research will focus on two processes related to the CRM model in question.`
         },
+        {
+            title: 'Salesforce Migration Consulting',
+            desc: `Migrating from a legacy system involves the risk of affecting live business operations and data that can be prevented by hiring a Salesforce CRM consulting partner. Migration of data and CRM systems with no business disruptions. Our automated migration processes ensure elevated business performance with utmost data security.`
+        },
     ]
 
     const title = {title: 'We Offer', span_title: 'Services'}

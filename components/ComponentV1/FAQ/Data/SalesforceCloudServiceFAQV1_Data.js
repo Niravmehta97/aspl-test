@@ -3,8 +3,7 @@ export const getSalesforceCloudServiceFAQDataV1 = () => {
         {
             id: 1,
             title: 'What Salesforce Cloud Services Does Ashapura Softech Offer?',
-            desc: `Ashapura Softech offers a variety of Salesforce Cloud Services to help businesses improve their customer relationship management (CRM). Their services include consulting on which Salesforce products are best for your business, implementation of those products, and customization of Salesforce products to fit your specific needs.`
-                  `They specifically mention expertise in Salesforce Service Cloud, which can help businesses centralize customer information, automate tasks, and provide omnichannel support. They also mention Salesforce Marketing Cloud, which can help businesses with email marketing, social media marketing, and data analysis. Overall, Ashapura Softech can help you with all aspects of using Salesforce to improve your customer relationships.`
+            desc: `Ashapura Softech offers a variety of Salesforce Cloud Services to help businesses improve their customer relationship management (CRM). Their services include consulting on which Salesforce products are best for your business, implementation of those products, and customization of Salesforce products to fit your specific needs.They specifically mention expertise in Salesforce Service Cloud, which can help businesses centralize customer information, automate tasks, and provide omnichannel support. They also mention Salesforce Marketing Cloud, which can help businesses with email marketing, social media marketing, and data analysis. Overall, Ashapura Softech can help you with all aspects of using Salesforce to improve your customer relationships.`
         },
         {
             id: 2,
