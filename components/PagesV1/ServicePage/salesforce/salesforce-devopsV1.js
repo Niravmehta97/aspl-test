@@ -10,11 +10,11 @@ import ServiceWeOffer from '../../../ComponentV1/ServicesWeOffer/ServiceWeOfferV
 import SalesforceServicesV1 from '../../../ComponentV1/SalesforceServices/SalesforceServicesV1'
 import TrustedByV1 from '../../../ComponentV1/TrustedBy/TrustedByV1'
 import ServiceBannerV1 from '../../../ComponentV1/ServiceBanner/ServiceBannerV1'
-import { getsalesforcecloudwhyData } from '../../../ComponentV1/WhyYouNeedV1/Data/Salesforce_Cloud_Service_Data'
 import { getSalesforceCloudServiceData } from '../../../ComponentV1/SalesforceServices/Data/SalesforceCloudServiceDataV1'
 import { getsalesforcedevopsData } from '../../../ComponentV1/ServiceBanner/Data/Salesforce_Devops_Data'
 import { getSalesforceDevOpsFAQDataV1 } from '../../../ComponentV1/FAQ/Data/SalesforceDevOpsFAQV1_Data'
 import { getsalesforcedevopsOfferData } from '../../../ComponentV1/ServicesWeOffer/Data/Salesforce_Devops_OfferV1_Data'
+import { getsalesforcedevopswhyData } from '../../../ComponentV1/WhyYouNeedV1/Data/Salesforce_Devops_Data'
 
 
 export default function SalesforceDevOpsV1() {
@@ -23,7 +23,7 @@ export default function SalesforceDevOpsV1() {
     <Headerv1 />
     <ServiceBannerV1 data={getsalesforcedevopsData()} />
     <TrustedByV1 />
-    <WhyYouNeedV1 data={getsalesforcecloudwhyData()} />
+    <WhyYouNeedV1 data={getsalesforcedevopswhyData()} />
     <ServiceWeOffer data={getsalesforcedevopsOfferData()} />
     <SalesforceServicesV1 data={getSalesforceCloudServiceData()}/>
     <WhyChooseUsV1 />

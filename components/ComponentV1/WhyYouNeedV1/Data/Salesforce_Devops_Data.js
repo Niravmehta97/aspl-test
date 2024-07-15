@@ -1,4 +1,4 @@
-export const getsalesforceservicecloudwhyData = () => {
+export const getsalesforcedevopswhyData = () => {
     return {
         title: 'What Reason Do You Need',
         span_title: 'Salesforce DevOps Tools?',
