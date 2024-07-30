@@ -3,8 +3,8 @@ export const getsalesforcecloudwhyData = () => {
         title: 'Why You Need a ',
         span_title: 'Salesforce Cloud Services?',
         desc: [
-            `We create and customize many applications such as content management, document management, and enterprise search. Using. We offer powerful SharePoint solutions that can be used in web and custom programming.`,
-            `Ashapura Softech Inc, a leader in a SharePoint development company has a certified & high skilled team. It can meet your needs, including portal planning and design, business process analysis, enterprise information management, technology implementation, support documents, and many others.`
+            `In today’s fast-paced business environment, staying ahead of the competition and effectively managing customer relationships can make or break your success. Salesforce Cloud Services provide a comprehensive suite of tools designed to streamline operations, enhance customer engagement, and drive business growth. By harnessing the power of Salesforce, companies can gain real-time insights, automate processes, and create a more cohesive and responsive business strategy.`,
+            `Ashapura Softech specializes in delivering customized Salesforce Cloud Services designed to meet the unique needs of your business. Our team of experts works closely with you to implement and optimize Salesforce solutions, ensuring that you leverage the platform’s full potential to achieve your business objectives. By partnering with Ashapura Softech, you gain a strategic ally in transforming your CRM and business processes, driving efficiency, and enhancing overall growth.`
         ]
     }
 }

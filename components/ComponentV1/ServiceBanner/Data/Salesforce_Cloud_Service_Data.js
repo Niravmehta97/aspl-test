@@ -2,6 +2,6 @@ export const getsalesforcecloudData = () => {
     return {
         title: "Services",
         span_title: "Salesforce Cloud ",
-        description: `At Ashapura Softech, We have a much experienced and technical team of Salesforce developers and CRM experts, to carter help you in your business to increase leads and sales. Our team of experts will help you from implementing CRM till you get familiar with the software. If you want to customize your CRM with other devices too.`
+        description: `We offer a comprehensive range of Salesforce Cloud Services designed to empower businesses with cutting-edge technology and solutions that drive growth, efficiency, and customer satisfaction. Our expertise spans various Salesforce Cloud offerings, ensuring that you receive tailored solutions to meet your unique business needs.`
     }
 }

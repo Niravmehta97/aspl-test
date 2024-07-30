@@ -1,10 +1,11 @@
 export const getsalesforceservicecloudwhyData = () => {
     return {
-        title: 'What Is The ',
+        title: 'Why Do You Need ',
         span_title: 'Salesforce Service Cloud?',
         desc: [
-            `The Salesforce Service Cloud is a cloud-based platform that enables companies and organizations to support their customers easily and deliver great customer service.`,
-            `Entirely customizable cloud-based service that you can configure based on your specific requirements. It's also available via mobile app, so you can respond effectively regardless of where you are or what device you have at hand. The Salesforce Service Cloud is a complete and comprehensive system designed to help businesses achieve their goals.`
+            `Salesforce Service Cloud is a powerful platform designed to revolutionize customer service. It offers a unified view of your customers, allowing you to deliver faster, smarter, and more personalized support. By automating processes, streamlining workflows, and providing intelligent tools, Service Cloud empowers your agents to deliver exceptional customer experiences.`,
+            `In the ever-evolving landscape of customer service, delivering exceptional support and ensuring customer satisfaction are vital for maintaining a competitive edge. Salesforce Service Cloud is designed to transform how businesses handle customer service by providing a comprehensive platform that enhances efficiency, improves support quality, and drives customer loyalty. `,
+            `Ashapura Softech specializes in implementing and optimizing Salesforce Service Cloud solutions tailored to your business needs. Our expert team works with you to customize the platform, ensuring it aligns with your unique customer service goals and operational processes. By partnering with Ashapura Softech, you can enhance your customer service capabilities, drive efficiency, and build stronger customer relationships, ultimately leading to greater business success.`
         ]
     }
 }

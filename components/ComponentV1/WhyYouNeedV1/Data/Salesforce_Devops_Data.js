@@ -1,11 +1,10 @@
 export const getsalesforcedevopswhyData = () => {
     return {
-        title: 'What Reason Do You Need',
-        span_title: 'Salesforce DevOps Tools?',
+        title: 'Why Do You Need ',
+        span_title: 'Salesforce DevOps?',
         desc: [
-            `First and foremost, not every person will require Salesforce DevOps tools. In the event that you run a little Org, with a moderately fundamental execution and a little improvement group, you may be content with the local Salesforce devices accessible, for example, change sets.`,
-            `In any case, on the off chance that you have a bigger group, with different designers working across various sandboxes, or perhaps utilizing complex items, for example, Salesforce CPQ, Salesforce DevOps devices may very well become fundamental.`,
-            `There are a couple of sorts of apparatuses which we will cover in the following segment, yet we should investigate how Salesforce change sets work to comprehend the requirement for Salesforce DevOps instruments, particularly with regards to delivering the executives.`
+            `Salesforce DevOps is a set of practices that combine software development and IT operations to deliver Salesforce changes faster, more reliably, and with higher quality. By automating repetitive tasks, improving collaboration, and enhancing testing, DevOps accelerates development cycles, reduces errors, and ensures a seamless user experience.`,
+            `Ashapura Softech is your expert partner in implementing and optimizing Salesforce DevOps practices. Our team of specialists works with you to design and execute a DevOps strategy tailored to your specific needs, ensuring streamlined development processes, efficient deployments, and enhanced application performance. By choosing Ashapura Softech, you gain a dedicated ally in accelerating your Salesforce development, maintaining high-quality standards, and achieving your business objectives.`
         ]
     }
 }
