@@ -38,7 +38,7 @@ export const getsalesforcecloudOfferData = () => {
         },
     ]
 
-    const title = {title: 'We Offer', span_title: 'Salesforce Services'}
+    const title = {title: 'We Offer', span_title: 'Services'}
     const description = ` `
 
     return {...title, description, listData}
